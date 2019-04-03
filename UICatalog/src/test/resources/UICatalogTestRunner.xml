@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="iOS test suite on iPhone Simulator">
+
+    <parameter name="OS" value="ios"/>
+    <parameter name="appType" value="iPhone"/>
+    <parameter name="deviceType" value="Simulator"/>
+    <parameter name="deviceName" value="iPhone 7 Plus"/>
+    <parameter name="version" value="10.2"/>
+    <parameter name="moduleName" value="UiCatalog"/>
+    <parameter name="appName" value="UICatalog6.1.app.zip"/>
+
+    <test name="GoToHomePage" preserve-order="true">
+        <classes>
+        <class name="testHomePage.TestUICatalogHome"></class>
+        </classes>
+    </test>
+
+</suite>
