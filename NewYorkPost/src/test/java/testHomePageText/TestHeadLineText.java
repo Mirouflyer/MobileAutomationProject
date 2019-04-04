@@ -1,19 +1,20 @@
-package testHomePage;
+package testHomePageText;
 
 import base.MobileAPI;
-import homePage.AlertsNotifications;
+import homePageText.HeadLineText;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 import reporting.ApplicationLog;
 import reporting.TestLogger;
 
-public class TestAlertsNotifiactions extends MobileAPI {
+
+public class TestHeadLineText extends MobileAPI {
 
     @Test
-    public void alertsNotifications(){
+    public void headLineText(){
         ApplicationLog.epicLogger();
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        AlertsNotifications alertsNotifications = PageFactory.initElements(ad,AlertsNotifications.class);
-        alertsNotifications.clickOnAlertsButton();
+        HeadLineText headLineText = PageFactory.initElements(ad,HeadLineText.class);
+        headLineText.clickOnHeadLine();
     }
 }
