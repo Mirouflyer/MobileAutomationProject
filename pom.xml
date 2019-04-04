@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>UICatalog</module>
         <module>NewYorkPost</module>
+        <module>Walmart</module>
 
 
     </modules>

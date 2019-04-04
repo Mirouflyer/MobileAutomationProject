@@ -16,6 +16,6 @@ public class HeadLineText {
     public void clickOnHeadLine(){
         String title = getLatestStrory().getText();
         System.out.println(title);
-        Assert.assertEquals(title,"Britney Spears checks into mental health facility amid dad’s illness");
+        Assert.assertEquals(title,"‘Teen’ claiming to be missing boy Timmothy Pitzen is actually a 23-year-old man");
     }
 }

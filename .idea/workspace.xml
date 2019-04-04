@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76961fea-5d2d-498e-afdf-80272d18bec3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/AlertsNotificationsSelection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestAlertsNotifiactionsSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewYorkPost/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkPost/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/AlertsNotifications.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestAlertsNotifiactions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkPost/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkPost/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkPost/screenshots/BaseLine/searchPageFromDB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/main/java/homePageText/HeadLineText.java" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkPost/src/main/java/homePageText/HeadLineText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/main/java/searchPage/SearchPageFromDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/test/java/testSearchPage/TestSearchFromDB.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,6 +19,7 @@
     <ignored path="$PROJECT_DIR$/NYP/target/" />
     <ignored path="$PROJECT_DIR$/UICatalog/target/" />
     <ignored path="$PROJECT_DIR$/NewYorkPost/target/" />
+    <ignored path="$PROJECT_DIR$/Walmart/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +31,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="240">
+              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/PageMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="22" column="181" selection-start-line="22" selection-start-column="181" selection-end-line="22" selection-end-column="181" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Walmart/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewYorkPost/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestPageMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,8 +84,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/AlertsNotificationsSelection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="256">
               <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/homePageText/HeadLineText.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="114" selection-start-line="18" selection-start-column="114" selection-end-line="18" selection-end-column="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,18 +108,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestAlertsNotifiactionsSelection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+            <state relative-caret-position="77">
+              <caret line="14" column="134" selection-start-line="13" selection-start-column="7" selection-end-line="14" selection-end-column="134" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/resources/secret.properties">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -67,30 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/searchPage/SearchPageFromDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1751#1752#0" expanded="true" />
-                <element signature="e#1785#1786#0" expanded="true" />
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1155#1156#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1230#1231#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -103,39 +134,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-244">
-              <caret line="183" column="62" selection-start-line="183" selection-start-column="62" selection-end-line="183" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testSearchPage/TestSearchFromDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/database/ConnectToSqlDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-544">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -168,7 +166,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/UICatalog/pom.xml" />
         <option value="$PROJECT_DIR$/UICatalog/src/main/java/UICatalogHome.java" />
-        <option value="$PROJECT_DIR$/NewYorkPost/pom.xml" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/clickOnAlertsNotifications.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/test/resources/UICatalogTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java" />
@@ -182,10 +179,15 @@
         <option value="$PROJECT_DIR$/NewYorkPost/src/main/java/searchPage/SearchPage.java" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/main/java/datasources/DataBase.java" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/test/java/TestSearchPage/TestSearchFromDB.java" />
-        <option value="$PROJECT_DIR$/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/test/java/testSearchPage/TestSearchFromDB.java" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePageText/TestHeadLineText.java" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/main/java/searchPage/SearchPageFromDB.java" />
+        <option value="$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestPageMenu.java" />
+        <option value="$PROJECT_DIR$/NewYorkPost/src/main/java/homePageText/HeadLineText.java" />
+        <option value="$PROJECT_DIR$/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" />
+        <option value="$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/PageMenu.java" />
+        <option value="$PROJECT_DIR$/NewYorkPost/pom.xml" />
+        <option value="$PROJECT_DIR$/Walmart/pom.xml" />
       </list>
     </option>
   </component>
@@ -241,74 +243,7 @@
             <path>
               <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="NewYorkPost" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="NewYorkPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="NewYorkPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="NewYorkPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="NewYorkPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="searchPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="NewYorkPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="NewYorkPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="NewYorkPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testSearchPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="NewYorkPost" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,7 +252,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554336470323" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554417492975" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -423,34 +358,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 19h 21m 01s.xml">
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 20h 06m 29s.xml">
       <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 19h 22m 20s.xml">
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 20h 07m 15s.xml">
       <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 19h 43m 53s.xml">
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 20h 08m 20s.xml">
       <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 19h 49m 42s.xml">
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 07m 25s.xml">
       <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 19h 51m 23s.xml">
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 09m 02s.xml">
       <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 19h 53m 46s.xml">
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 10m 24s.xml">
       <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 19h 56m 02s.xml">
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 11m 14s.xml">
       <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 19h 56m 33s.xml">
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 12m 13s.xml">
       <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 19h 58m 13s.xml">
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 15m 27s.xml">
       <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 20h 01m 44s.xml">
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 31m 38s.xml">
       <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -458,7 +393,7 @@
     <frame x="95" y="23" width="1585" height="980" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23744293" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23744293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -467,7 +402,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39930955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -480,7 +415,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.41226354" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.41226354" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -558,13 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkPost/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -653,18 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/homePageText/HeadLineText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/resources/secret.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -675,44 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/datasources/DataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/AlertsNotificationsSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestAlertsNotifiactionsSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testSearchPage/TestSearchFromDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="165">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -739,10 +621,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkPost/screenshots/BaseLine/searchPageFromDB.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/AlertsNotificationsSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/searchPage/SearchPageFromDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="271">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#885#886#0" expanded="true" />
@@ -758,6 +653,79 @@
             <element signature="e#1189#1190#0" expanded="true" />
             <element signature="e#1230#1231#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/datasources/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestPageMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestAlertsNotifiactionsSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="14" column="134" selection-start-line="13" selection-start-column="7" selection-end-line="14" selection-end-column="134" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/homePageText/HeadLineText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="114" selection-start-line="18" selection-start-column="114" selection-end-line="18" selection-end-column="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkPost/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/PageMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="22" column="181" selection-start-line="22" selection-start-column="181" selection-end-line="22" selection-end-column="181" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkPost/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
         </state>
       </provider>
     </entry>

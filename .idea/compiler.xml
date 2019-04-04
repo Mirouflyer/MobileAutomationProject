@@ -9,6 +9,7 @@
         <module name="Generic" />
         <module name="NewYorkPost" />
         <module name="UICatalog" />
+        <module name="Walmart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -12,9 +12,10 @@
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
-        <!--<class name="testHomePage.TestAlertsNotifiactionsSelection"></class>-->
-            <!--<class name="testHomePageText.TestHeadLineText"></class>-->
-            <class name="testSearchPage.TestSearchFromDB"></class>
+        <class name="testHomePage.TestAlertsNotifiactionsSelection"></class>
+            <class name="testHomePageText.TestHeadLineText"></class>
+            <class name="testHomePage.TestPageMenu"></class>
+
         </classes>
     </test>
 </suite>
