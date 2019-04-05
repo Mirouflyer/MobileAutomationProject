@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import org.testng.annotations.Optional;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
 
@@ -26,13 +27,12 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.lang.reflect.Method;
 import java.net.URL;
+import java.security.Key;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
 
 public class MobileAPI {
 
@@ -158,8 +158,8 @@ public class MobileAPI {
 
         }else if(OS.contains("Android")){
             if(appType.contains("Phone")){
-                appDirectory = new File("/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/app");
-                findApp = new File(appDirectory,"NewYorkPost.apk");
+                appDirectory = new File("/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/app");
+                findApp = new File(appDirectory,"Walmart.apk");
                 if(deviceType.equalsIgnoreCase("RealDevice")){
                     cap = new DesiredCapabilities();
                     cap.setCapability(MobileCapabilityType.DEVICE_NAME,deviceName);
@@ -294,4 +294,39 @@ public class MobileAPI {
         return StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(words), ' ');
     }
 
+    //****************************//click Method//********************************************//
+    //clickWhenClickable
+    public void clickWhenClickable(AppiumDriver ad, String locator) {
+        WebDriverWait wait = new WebDriverWait(ad, 45);
+        wait.until(ExpectedConditions.elementToBeClickable(By.id(locator))).click();
+    }
+
+    //clickOnElement
+    public void clickOnElement(AppiumDriver ad, String locator) {
+        locateElement(ad, locator).click();
+
+    }
+    //***************************//locate Element Method//**********************************************//
+    private static final List<Function<String, By>> resolvers = Arrays.asList(By::id, By::className, By::xpath);
+    public WebElement locateElement(AppiumDriver ad, String locator) {
+        WebElement el = null;
+        for (Function<String, By> resolver : resolvers) {
+            try {
+                el = ad.findElement(resolver.apply(locator));
+                if (el != null) {
+                    break;
+                }
+            } catch (Exception e) {
+                if (locator == null) {
+                    System.out.println("Ensure getResource() is fetching a valid resource in the locator resource file");
+                }
+                System.out.println(e + "Locator: " + locator);
+            }
+        }
+        return el;
+    }
+
+    public void typeByXpath(String locator, String value, Key key){
+        ad.findElement(By.xpath(locator)).sendKeys(value);
+    }
 }

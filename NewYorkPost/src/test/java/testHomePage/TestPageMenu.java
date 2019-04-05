@@ -130,13 +130,4 @@ public class TestPageMenu extends MobileAPI {
         pageMenu.getVideo();
     }
 
-    @Test
-    public void getPageSixTvTest(){
-        ApplicationLog.epicLogger();
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        PageMenu pageMenu = PageFactory.initElements(ad, PageMenu.class);
-        pageMenu.getPageSixTv();
-    }
-
-
 }

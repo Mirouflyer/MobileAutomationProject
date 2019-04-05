@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76961fea-5d2d-498e-afdf-80272d18bec3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkPost/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkPost/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkPost/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkPost/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkPost/screenshots/BaseLine/searchPageFromDB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/main/java/homePageText/HeadLineText.java" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkPost/src/main/java/homePageText/HeadLineText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/main/java/searchPage/SearchPageFromDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/test/java/testSearchPage/TestSearchFromDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/main/java/datasources/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Walmart/src/main/java/datasources/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestPageMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestPageMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYorkPost/src/test/resources/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Walmart/src/test/resources/secret.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,11 +47,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Walmart/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
+            <state relative-caret-position="391">
               <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Walmart/src/test/resources/WalmartTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="328" column="58" selection-start-line="328" selection-start-column="58" selection-end-line="328" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,10 +87,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/datasources/DataBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/searchPage/SearchItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+                <element signature="e#1603#1604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestPageMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
+            <state relative-caret-position="421">
+              <caret line="132" selection-start-line="132" selection-end-line="132" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,55 +130,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/AlertsNotificationsSelection.java">
+        <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/testSearchPage/TestSearchItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/homePageText/HeadLineText.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="114" selection-start-line="18" selection-start-column="114" selection-end-line="18" selection-end-column="114" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestAlertsNotifiactionsSelection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="14" column="134" selection-start-line="13" selection-start-column="7" selection-end-line="14" selection-end-column="134" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/datasources/DataBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePageText/TestHeadLineText.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="150">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,7 +171,6 @@
         <option value="$PROJECT_DIR$/UICatalog/src/main/java/UICatalogHome.java" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/clickOnAlertsNotifications.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/test/resources/UICatalogTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/main/java/homePage/UICatalogHome.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/test/java/testHomePage/TestUICatalogHome.java" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/AlertsNotifications.java" />
@@ -182,12 +184,17 @@
         <option value="$PROJECT_DIR$/NewYorkPost/src/test/java/testSearchPage/TestSearchFromDB.java" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePageText/TestHeadLineText.java" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/main/java/searchPage/SearchPageFromDB.java" />
-        <option value="$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestPageMenu.java" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/main/java/homePageText/HeadLineText.java" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" />
         <option value="$PROJECT_DIR$/NewYorkPost/src/main/java/homePage/PageMenu.java" />
         <option value="$PROJECT_DIR$/NewYorkPost/pom.xml" />
         <option value="$PROJECT_DIR$/Walmart/pom.xml" />
+        <option value="$PROJECT_DIR$/Walmart/src/test/resources/NewYorkPostTestRunner.xml" />
+        <option value="$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestPageMenu.java" />
+        <option value="$PROJECT_DIR$/Walmart/src/main/java/datasources/DataBase.java" />
+        <option value="$PROJECT_DIR$/Walmart/src/test/java/testSearchPage/TestSearchItems.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java" />
+        <option value="$PROJECT_DIR$/Walmart/src/main/java/searchPage/SearchItems.java" />
       </list>
     </option>
   </component>
@@ -217,7 +224,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="95" />
     <option name="y" value="23" />
     <option name="width" value="1585" />
@@ -243,7 +250,90 @@
             <path>
               <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="datasources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="searchPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testSearchPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team10MobileAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team10MobileAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="Walmart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,7 +342,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554417492975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554432460920" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -261,22 +351,22 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Walmart/src/test/resources" />
+      <recent name="$PROJECT_DIR$/Walmart/src/app" />
       <recent name="$PROJECT_DIR$/NewYorkPost/src/test/resources" />
       <recent name="$PROJECT_DIR$/NewYorkPost/src/app" />
       <recent name="$PROJECT_DIR$/UICatalog/src/app" />
-      <recent name="$PROJECT_DIR$/Generic/src/main/java/utility" />
-      <recent name="$PROJECT_DIR$/Generic/src/main/java/reporting" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="datasources" />
       <recent name="homePage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Walmart/src/test/resources" />
+      <recent name="$PROJECT_DIR$/Walmart/src/test" />
       <recent name="$PROJECT_DIR$/NewYorkPost/src/test" />
       <recent name="$PROJECT_DIR$/UICatalog/src/test" />
       <recent name="$PROJECT_DIR$/NYP/src/test" />
-      <recent name="$PROJECT_DIR$/Generic/src/main/java" />
-      <recent name="$PROJECT_DIR$/Generic/sql-driver" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -291,10 +381,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml">
+  <component name="RunManager" selected="TestNG./Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml">
     <configuration name="DataBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datasources.DataBase" />
-      <module name="NewYorkPost" />
+      <module name="Walmart" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="datasources.*" />
@@ -335,10 +425,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Walmart" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Walmart/src/test/resources/WalmartTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" />
+        <item itemvalue="TestNG./Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" />
         <item itemvalue="Application.DataBase" />
+        <item itemvalue="TestNG./Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" />
         <item itemvalue="TestNG./Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/UICatalog/src/test/resources/UICatalogTestRunner.xml" />
         <item itemvalue="TestNG./Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NYP/src/test/resources/NYPTestRunner.xml" />
       </list>
@@ -358,42 +459,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 20h 06m 29s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.04.04 at 20h 05m 20s.xml">
+      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 20h 07m 15s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.04.04 at 20h 06m 25s.xml">
+      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.03 at 20h 08m 20s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.04.04 at 22h 22m 27s.xml">
+      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 07m 25s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.04.04 at 22h 25m 13s.xml">
+      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 09m 02s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.04.04 at 22h 33m 17s.xml">
+      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 10m 24s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.04.04 at 22h 36m 02s.xml">
+      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 11m 14s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.04.04 at 22h 41m 01s.xml">
+      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 12m 13s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.04.04 at 22h 45m 57s.xml">
+      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 15m 27s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.04.04 at 22h 47m 15s.xml">
+      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_NewYorkPost_src_test_resources_NewYorkPostTestRunner_xml - 2019.04.04 at 18h 31m 38s.xml">
-      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/NewYorkPost/src/test/resources/NewYorkPostTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_mirouflyer_Desktop_MobileAutomation_Team10MobileAutomation_Walmart_src_test_resources_WalmartTestRunner_xml - 2019.04.04 at 22h 49m 00s.xml">
+      <configuration name="/Users/mirouflyer/Desktop/MobileAutomation/Team10MobileAutomation/Walmart/src/test/resources/WalmartTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="23" width="1585" height="980" extended-state="0" />
+    <frame x="95" y="23" width="1585" height="980" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23744293" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23744293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,7 +503,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39930955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -581,7 +682,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/resources/secret.properties">
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/resources/secret.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/database/ConnectToSqlDB.java">
@@ -595,16 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="183" column="62" selection-start-line="183" selection-start-column="62" selection-end-line="183" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -652,23 +743,6 @@
             <element signature="e#1155#1156#0" expanded="true" />
             <element signature="e#1189#1190#0" expanded="true" />
             <element signature="e#1230#1231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/main/java/datasources/DataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestPageMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="133" column="28" selection-start-line="133" selection-start-column="28" selection-end-line="133" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -724,8 +798,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Walmart/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
+        <state relative-caret-position="391">
           <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewYorkPost/src/test/java/testHomePage/TestPageMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/datasources/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/resources/WalmartTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/testSearchPage/TestSearchItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="328" column="58" selection-start-line="328" selection-start-column="58" selection-end-line="328" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/searchPage/SearchItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
