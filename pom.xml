@@ -13,6 +13,7 @@
         <module>UICatalog</module>
         <module>NewYorkPost</module>
         <module>Walmart</module>
+        <module>WashigtonPost</module>
 
 
     </modules>

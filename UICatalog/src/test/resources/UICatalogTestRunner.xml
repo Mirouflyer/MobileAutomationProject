@@ -13,7 +13,18 @@
 
     <test name="GoToHomePage" preserve-order="true">
         <classes>
-        <class name="testHomePage.TestUICatalogHome"></class>
+            <class name="testHomePage.TestUIButtonsPage"></class>
+            <class name="testHomePage.TestUIControlPage"></class>
+            <class name="testHomePage.TestAlertsPage"></class>
+            <class name="testHomePage.TestImagesPage"></class>
+            <class name="testHomePage.TestPickersPage"></class>
+            <class name="testHomePage.TestSearchBarPage"></class>
+            <class name="testHomePage.TestSegmentsPage"></class>
+            <class name="testHomePage.TestTextFieldsPage"></class>
+            <class name="testHomePage.TestTextViewPage"></class>
+            <class name="testHomePage.TestToolbarPage"></class>
+            <class name="testHomePage.TestTransitionsPage"></class>
+            <class name="testHomePage.TestWebPage"></class>
         </classes>
     </test>
 

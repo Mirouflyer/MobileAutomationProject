@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android test suite on Android Phone">
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="Emulator"/>
+    <parameter name="deviceName" value="Pixel 2"/>
+    <parameter name="version" value="7.0"/>
+    <parameter name="moduleName" value="WashigtonPost"/>
+    <parameter name="appName" value="TheWashigtonPost.apk"/>
+
+    <test name="Go to Home page" preserve-order="true">
+        <classes>
+        <!--<class name="testHomePage.TestSettingsPage"></class>-->
+            <class name="testSignUp.TestSignUp"></class>
+        </classes>
+    </test>
+</suite>

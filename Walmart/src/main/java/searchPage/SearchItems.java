@@ -44,7 +44,7 @@ public class SearchItems extends MobileAPI {
         List<String> list = dataBase.getItemListFromDB();
         for (int i = 0; i < list.size(); i++) {
             typeOnSearchField(list.get(i));
-           clickOnAllDepartmentSearch();
+            clickOnAllDepartmentSearch();
             clearSearch();
         }
     }

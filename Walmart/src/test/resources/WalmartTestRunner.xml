@@ -12,7 +12,8 @@
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
-        <class name="testSearchPage.TestSearchItems"></class>
+        <!--<class name="testSearchPage.TestSearchItems"></class>-->
+            <class name="testHomePage.TestTellUs"></class>
         </classes>
     </test>
 </suite>

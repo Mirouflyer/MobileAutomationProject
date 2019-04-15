@@ -124,8 +124,8 @@ public class MobileAPI {
                     cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
                     cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
                     cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
-                    cap.setCapability(MobileCapabilityType.APP, appDirectory);//findApp.getAbsolutePath()
-                    ad = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+                    cap.setCapability(MobileCapabilityType.APP, appDirectory);
+                    ad = new IOSDriver(new URL("http://0.0.0.0:4723/wd/hub"), cap);
                     ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 }
 
@@ -166,7 +166,7 @@ public class MobileAPI {
                     cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
                     cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
                     cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
-                    ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+                    ad = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), cap);
                     ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
                 }else if (deviceType.equalsIgnoreCase("Emulator")){
@@ -176,7 +176,7 @@ public class MobileAPI {
                     cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
                     cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
                     cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
-                    ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+                    ad = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), cap);
                     ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 }
 

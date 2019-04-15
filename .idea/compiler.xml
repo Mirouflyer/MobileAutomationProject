@@ -10,10 +10,8 @@
         <module name="NewYorkPost" />
         <module name="UICatalog" />
         <module name="Walmart" />
+        <module name="WashigtonPost" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="NYP" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
